@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        //task 1
+        //1-i)introduction to javascript
+       //1
+        // alert("Hello World!");
+        //2
+        let a="sabari";
+        console.log(a);
+        let b=43;
+        console.log(b);
+        let c=100<b;
+        console.log(c);
+        //3
+        console.log(100+100);
+        console.log(100-10);
+        console.log(43*3);
+        //4
+        let a1="Daenerys";
+        let a2=" Stromborn";
+        console.log(a1+a2);
+        //5
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(typeof c);
+        //ii)code structure
+        //6
+        /*this is
+        multi-line 
+        javascript
+         command*/
+         //this is single-line javascript command
+         console.log("single-// multi-/*...*/");
+         //7
+         console.log("hello")
+          console.log("mmmm");
+          //there is no difference in result
+          //8
+          let n=5;
+          for(let i=0;i<n;i++){
+            for(let j=0;j<n;j++){
+                console.log("hiii")
+            }
+          }
+          //9
+          let q=1,r="rent",s="ball";
+          console.log(q+" "+r+" "+s)
+          //10
+          console.log("there is no difference behaviour to place the script tag at top and bottom")
+          //2-i)the modern code,"use strict":
+          //11
+          az=1;
+          console.log(az)//get the output
+          //12
+        //  user()
+        //   function user(){
+        //     "use strict"
+        //     ss=23
+        //     console.log(ss);
+        //   }
+          //it gives the error-Uncaught ReferenceError ReferenceError: az is not defined
+          //13
+          function user1(){
+            "use strict"
+            let obj={
+            name:"john",
+            age:23
+          };
+          delete obj.age
+          console.log(obj)
+          }
+        user1();
+        //14-same as 11&12
+        //15
+        user2()
+        function user2(){
+            "use strict"
+            let a
+            console.log(a)
+        }
+        //ii-variables
+        //16
+        var ac;//it will be redeclared and reassing the value
+        let ad;//it cannot be redeclared but we can reassign
+        const ed=21;//we cannot redeclared and reassign
+        //17
+        // ed=22;
+        // console.log(ed)//Uncaught TypeError TypeError: Assignment to constant variable.
+        //18
+        let v;
+        console.log(v);//undefined
+        //19
+        a=true
+        b="56port"
+        c=6776
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(typeof c);
+         //20
+         
+
+          
+
+    </script>
+</body>
+</html>
